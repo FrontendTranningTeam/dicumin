@@ -1,0 +1,38 @@
+.top-page {
+  display: flex;
+  justify-content: space-between;
+  background-color: $orange;
+  padding: 0 15px;
+}
+.login {
+  display: inline-block;
+  margin: 6px 0 6px 32px;
+  font-size: 11px;
+  &:hover {
+    color: $brown;
+  }
+}
+.social {
+  display: flex;
+  margin-right: 32px;
+  &__item {
+    width: 33px;
+    text-align: center;
+  }
+  &__icon {
+    font-size: 12px;
+  }
+}
+.banner {
+  &__img {
+    width: 100%;
+  }
+}
+@include respond-to('smallphone-and-down') {
+  .login {
+    margin-left: 0;
+  }
+  .social {
+    margin-right: 0;
+  }
+}

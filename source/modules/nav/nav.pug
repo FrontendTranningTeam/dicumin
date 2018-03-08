@@ -1,0 +1,12 @@
+mixin nav(menu)
+  nav.main-nav
+    span.menu-btn.js-menu-btn.fa.fa-bars
+    .main-nav__shadow
+    ul.main-menu
+      each item,index in menu
+        li.main-menu__item
+          a.main-menu__link(href="#!" class={"active": index === 0})= item
+    span.search-btn.fa.fa-search.js-search-btn
+    .search-box.js-search-box
+      input.search-box__input(type="text" size="1")
+      button.search-box__btn(type="submit") TÌM KIẾM

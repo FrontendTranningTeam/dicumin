@@ -1,0 +1,12 @@
+include modules/head/head
+include modules/header/header
+include modules/nav/nav
+
+doctype html
+html
+  +head
+  body
+    .page-wrapper
+      +header
+      +nav(menu)
+    script(src="js/main.js")
