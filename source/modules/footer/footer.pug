@@ -1,0 +1,27 @@
+mixin footer(data)
+  footer.footer
+    .footer__widgets.row
+      section.col-lg-4
+        h5.footer__title Tinh bột nghệ Dicumin
+        ul.about
+          each item in data.about
+            li.about__item= item
+      section.col-lg-4
+        h5.footer__title Bài viết mới
+        ul.new-post
+          each item in data.link
+            li.new-post__item
+              a.new-post__link(href="#!")= item
+      section.col-lg-4
+        h5.footer__title Kết nối Facebook
+        <iframe class="facebook-connect" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FtinhbotngheNgheAnDicumin%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        p.footer__note *Hiệu Quả Nhanh Hay Chậm Phụ Thuộc Vào Cơ Địa Từng Người
+    .footer__navbar
+      span.copyright © cazavan
+      ul.footer-nav
+        li.footer-nav__item
+          a.footer-nav__link(href="#!") About
+        li.footer-nav__item
+          a.footer-nav__link(href="#!") Block
+        li.footer-nav__item.footer-nav__item--last
+          a.footer-nav__link(href="#!") Contact

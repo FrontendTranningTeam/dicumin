@@ -1,6 +1,7 @@
 include modules/head/head
 include modules/header/header
 include modules/nav/nav
+include modules/footer/footer
 
 doctype html
 html
@@ -9,4 +10,5 @@ html
     .page-wrapper
       +header
       +nav(menu)
+      +footer(data)
     script(src="js/main.js")
