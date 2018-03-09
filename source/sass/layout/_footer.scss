@@ -1,0 +1,96 @@
+.footer {
+  &__widgets {
+    margin: 0;
+    padding: 54px 0 20px;
+    background-color: $black-lighten;
+  }
+  &__navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: $yellow-darker;
+    padding: 0 33px;
+  }
+  &__title {
+    font-family: $roboto-slab;
+    font-size: 18px;
+    line-height: 17px;
+    margin-bottom: 30px;
+    color: $orange-darker;
+  }
+  &__note {
+    font-family: $roboto-slab;
+    font-size: 18px;
+    line-height: 17px;
+    margin-bottom: 47px;
+    color: $orange-darker;
+  }
+}
+.about {
+  &__item {
+    color: $orange-darker;
+    font-family: $verdana;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 21px;
+  }
+}
+.new-post {
+  &__item {
+    border-bottom: 1px dashed $white;
+    padding: 8px 0 7px;
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+  &__link {
+    display: inline-block;
+    color: $white;
+    font-family: $raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    &:hover {
+      color: $black;
+    }
+  }
+}
+.facebook-connect {
+  max-width: 100%;
+  margin-bottom: 17px;
+}
+.copyright {
+  display: inline-block;
+  font-family: $opensans;
+  font-size: 12px;
+  margin: 8px 0;
+}
+.footer-nav {
+  display: flex;
+  &__item {
+    margin-right: 20px;
+    &--last {
+      margin-right: 0;
+    }
+  }
+  &__link {
+    display: inline-block;
+    font-size: 12px;
+    margin: 8px 0;
+  }
+}
+@include respond-to('smallphone-and-down') {
+  .copyright {
+    width: 100%;
+    order: 1;
+    text-align: center;
+    margin: 7px 0 14px;
+  }
+  .footer-nav {
+    margin: auto;
+    &__link {
+      margin: 14px 0 7px;
+    }
+  }
+}
