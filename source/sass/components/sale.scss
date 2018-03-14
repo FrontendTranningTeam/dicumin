@@ -1,0 +1,74 @@
+.sale {
+  background-color: $grey-lightest;
+  margin: 0 24px;
+  padding: 33px 0 35px;
+  &__title {
+    color: $orange-darken;
+    font-family: $roboto;
+    font-size: 27px;
+    font-weight: 38px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto 32px;
+  }
+  &__btnwrap {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__buywrap {
+    text-align: center;
+    margin-bottom: 21px;
+  }
+}
+.price-wrap {
+  padding: 0 24px;
+  margin-bottom: 36px;
+}
+.price {
+  border-bottom: 1px solid $gray-lighter;
+  font-family: $verdana;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  padding: 10px 0 25px;
+  &__mass {
+    margin-right: 44px;
+  }
+  &__arrow {
+    color: $orange-darken;
+  }
+  &__new {
+    font-weight: 700;
+    color: $orange-darken;
+  }
+}
+.advice {
+  background-color: $orange-darkest;
+  color: $white;
+  padding: 0 24px 35px;
+  &__item {
+    font-family: $verdana;
+    font-size: 15px;
+    line-height: 26px;
+    border-bottom: 1px solid $grey;
+    padding: 7px 0 26px;
+  }
+}
+.sale-intro {
+  margin: 0;
+  padding: 0 9px;
+  &__text {
+    font-family: $verdana;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 26px;
+  }
+  &__arrow {
+    color: $orange-darken;
+    margin-right: 5px;
+  }
+  &__btnwrap {
+    margin-top: 42px;
+    text-align: center;
+  }
+}
