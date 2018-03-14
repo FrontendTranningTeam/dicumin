@@ -2,6 +2,12 @@ include modules/head/head
 include modules/header/header
 include modules/nav/nav
 include modules/footer/footer
+include modules/intro/intro
+include modules/problem/problem
+include modules/solution/solution
+include modules/story/story
+include modules/customer/customer
+include modules/feature/feature
 
 doctype html
 html
@@ -10,5 +16,11 @@ html
     .page-wrapper
       +header
       +nav(menu)
+      +intro
+      +problem
+      +solution
+      +story
+      +customer
+      +feature
       +footer(data)
     script(src="js/main.js")

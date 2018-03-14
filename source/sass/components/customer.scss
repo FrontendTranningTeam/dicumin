@@ -1,0 +1,37 @@
+.customer {
+  background-color: $grey-lightest;
+  margin: 0 24px;
+  padding: 0 24px;
+  &__img {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  &__number,
+  &__title {
+    font-family: $roboto;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    color: $orange-lighter;
+  }
+  &__number {
+    border-bottom: 1px solid $gray-lighter;
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+  }
+  &__title {
+    margin-bottom: 20px;
+    color: $orange-lighter;
+  }
+  &__list {
+    margin-bottom: 35px;
+  }
+  &__item {
+    font-family: $verdana;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 26px;
+    color: $orange-lighter;
+  }
+}

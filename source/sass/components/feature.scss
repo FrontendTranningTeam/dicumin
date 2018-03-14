@@ -1,0 +1,130 @@
+.feature {
+  margin: 0 24px;
+  &__header {
+    background-color: $grey-lightest;
+    padding: 8px 24px 35px;
+    &--darker {
+      background-color: $grey;
+    }
+  }
+  &__title {
+    font-family: $roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 38px;
+    color: $orange-darken;
+    border-top: 1px solid $gray-lighter;
+    border-bottom: 1px solid $gray-lighter;
+    text-align: center;
+    padding: 32px 0 20px;
+  }
+}
+.feature-fig {
+  padding: 6px 54px;
+  margin-bottom: 0;
+  &__img {
+    width: 100%;
+    margin-bottom: 11px;  
+  }
+  &__caption {
+    font-family: $verdana;
+    font-size: 11px;
+    font-style: italic;
+    line-height: 17px;
+    margin-bottom: 29px;
+  }
+}
+.worries {
+  padding: 0 24px;
+  margin-bottom: 50px;
+  &__liststyle {
+    width: 15px;
+    height: 15px;
+    margin-right: 11px;
+  }
+  &__item {
+    font-family: $verdana;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 26px;
+    color: $green;
+    margin-bottom: 26px;
+  }
+}
+.worries-img {
+  max-width: 100%;
+}
+.feature-commitment {
+  background-color: $grey-lightest;
+  padding-bottom: 27px;
+}
+.commitment {
+  margin-top: -34px;
+  padding: 0 24px;
+  &__item {
+    font-family: $verdana;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 26px;
+    color: $black-lighter;
+  }
+}
+.commitment-callbtn {
+  display: block;
+  width: 300px;
+  margin: -20px auto 0;
+  &__img {
+    width: 100%;
+  }
+}
+.reason {
+  &__row1 {
+    border-bottom: 1px solid $orange-line;
+    margin: 0 0 34px;
+    padding-bottom: 44px;
+  }
+  &__row2 {
+    background-color: $grey-lightest;
+    border-bottom: 1px solid $orange-line;
+    margin: 0;
+  }
+  &__row3 {
+    padding: 35px 0;
+    margin: 0;
+  }
+  &__title {
+    font-family: $roboto;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 29px;
+    color: $green;
+  }
+  &__text {
+    font-family: $verdana;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 26px;
+  }
+  &__img {
+    width: 100%;
+  }
+  &__caption {
+    font-family: $verdana;
+    font-size: 11px;
+    font-style: italic;
+    color: $black-lightest;
+    margin: 13px 0 38px;
+  }
+}
+.machines-list {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin: 15px 0;
+  &__item {
+    font-family: $verdana;
+    font-size: 15px;
+    line-height: 26px;
+    color: $black-lighter;
+  }
+}

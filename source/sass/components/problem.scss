@@ -1,0 +1,44 @@
+.problem {
+  background-color: $grey-lightest;
+  margin: 0 24px;
+  padding: 6px 24px; 
+  &--pink {
+    background-color: $pink-lightest;
+  }
+  &__img {
+    width: 100%;
+    margin-bottom: 26px;
+  }
+  &__figure {
+    margin-bottom: 39px;
+  }
+  &__figimg {
+    width: 100%;
+    margin-bottom: 13px;
+  }
+  &__caption {
+    font-family: $verdana;
+    font-size: 11px;
+    font-style: italic;
+    line-height: 17px;
+  }
+  &__title {
+    font-family: $roboto;
+    font-size: 27px;
+    line-height: 38px;
+    color: $orange-light;
+    margin: 30px 0 20px;
+  }
+  &__item {
+    font-family: $verdana;
+    font-size: 15px;
+    line-height: 26px;
+    color: $black-lighter;
+    margin-bottom: 26px;
+  }
+  &__arrow {
+    width: 15px;
+    height: 15px;
+    margin-right: 11px;
+  }
+}
