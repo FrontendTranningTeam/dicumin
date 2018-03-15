@@ -3,15 +3,16 @@ mixin sale
     h1.sale__title KHUYẾN MÃI LỚN TRONG TUẦN NÀY CHỈ 49 SUẤT GIẢM GIÁ 25 %
     .sale__btnwrap
       a.call-btn(href="#!")
+        img.call-btn__img(src="images/call-btn.jpg", alt="")
     .price-wrap
       .price
-        strong.price__mass >> 500g :
+        strong.price__mass #{'>>'} 500g :
         del.price__old Giá cũ 520k
         span.price__arrow ⇒
         span.price__compare Giảm còn
         span.price__new 390K
       .price
-        strong.price__mass >> 1kg :
+        strong.price__mass #{'>>'} 1kg :
         del.price__old Giá cũ 975k
         span.price__arrow ⇒
         span.price__compare Giảm còn

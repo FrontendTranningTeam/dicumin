@@ -1,5 +1,5 @@
 .intro-1 {
-  padding: 50px 48px 0;
+  padding: 50px 24px 0;
   margin-bottom: 36px;
   text-align: center;
   color: $orange-light;
@@ -19,7 +19,6 @@
   }
 }
 .intro-2 {
-  padding: 0 24px;
   &__figure {
     padding: 6px 24px;
     margin-bottom: 0;
@@ -62,7 +61,7 @@
   }
 }
 .intro-3 {
-  padding: 6px 48px 36px;
+  padding: 6px 24px 36px;
   &__imgwrap {
     text-align: center;
   }
@@ -77,13 +76,9 @@
     padding: 9px 0 26px;
     margin-bottom: 0;
   }
-  &__btn {
+  &__btnwrap {
     display: block;
-    width: 300px;
-    margin: 8px auto 0;
-
-  }
-  &__btnimg {
-    width: 100%;
+    text-align: center;
+    margin-top: 8px;
   }
 }

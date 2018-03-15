@@ -1,5 +1,4 @@
 .feature {
-  margin: 0 24px;
   &__header {
     background-color: $grey-lightest;
     padding: 8px 24px 35px;
@@ -24,7 +23,7 @@
   margin-bottom: 0;
   &__img {
     width: 100%;
-    margin-bottom: 11px;  
+    margin-bottom: 11px;
   }
   &__caption {
     font-family: $verdana;
@@ -71,12 +70,8 @@
   }
 }
 .commitment-callbtn {
-  display: block;
-  width: 300px;
-  margin: -20px auto 0;
-  &__img {
-    width: 100%;
-  }
+  margin-top: -20px;
+  text-align: center;
 }
 .reason {
   &__row1 {

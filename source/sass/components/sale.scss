@@ -1,6 +1,5 @@
 .sale {
   background-color: $grey-lightest;
-  margin: 0 24px;
   padding: 33px 0 35px;
   &__title {
     color: $orange-darken;
@@ -57,6 +56,9 @@
 .sale-intro {
   margin: 0;
   padding: 0 9px;
+  &__img {
+    width: 100%;
+  }
   &__text {
     font-family: $verdana;
     font-size: 15px;

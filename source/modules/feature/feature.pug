@@ -7,7 +7,7 @@ mixin feature
       .feature__header
         h1.feature__title Tuy Nhiên bạn Đang còn Những nỗi lo sau nên chưa sử dụng tinh bột nghệ
       .row
-        .col-lg-6 
+        .col-lg-6
           ul.worries
             li.worries__item
               img.worries__liststyle(src="https://s.w.org/images/core/emoji/2.3/svg/1f4e3.svg", alt="")
@@ -46,8 +46,9 @@ mixin feature
         li.commitment__item + Giấy chứng nhận y tế
         li.commitment__item + Hoàn tiền 200% nếu không hài lòng sau thời gian sử dụng.
         li.commitment__item + Là giải pháp làm đẹp chăm sóc sức khoẻ an toàn cho bạn
-      a.commitment-callbtn(href="#!")
-        img.commitment-callbtn__img(src="images/call-btn.jpg", alt="")
+      .commitment-callbtn
+        a.call-btn(href="#!")
+          img.call-btn__img(src="images/call-btn.jpg", alt="")
     section.reason
       .feature__header.feature__header--darker
         h1.feature__title Đây là lý do vì sao bạn nên mua tinh bột nghệ Dicumin để sử dụng làm đẹp và chăm sóc sức khỏe.

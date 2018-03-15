@@ -1,9 +1,10 @@
 .call-btn {
   display: inline-block;
   width: 300px;
-  height: 62px;
-  margin: 0 auto;
-  background: url('../images/call-btn.jpg') no-repeat;
+  max-width: 100%;
+  &__img {
+    width: 100%;
+  }
 }
 .buy-btn {
   display: inline-block;

@@ -1,5 +1,4 @@
 .solution {
-  margin: 0 24px;
   padding: 6px 24px 36px;
   background-color: $grey-lighten;
   &__wrap {
@@ -28,12 +27,9 @@
     margin-bottom: 0;
     border-bottom: 1px solid $gray-lighter;
   }
-  &__btn {
+  &__btnwrap {
     display: block;
-    width: 300px;
-    margin: 8px auto 0;
-  }
-  &__btnimg {
-    width: 100%;
+    margin-top: 8px;
+    text-align: center;
   }
 }
