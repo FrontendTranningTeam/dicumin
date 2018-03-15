@@ -1,0 +1,84 @@
+.intro-1 {
+  padding: 50px 24px 0;
+  margin-bottom: 36px;
+  text-align: center;
+  color: $orange-light;
+  &__title {
+    font-family: $roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  &__desc {
+    font-family: $verdana;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 10px 0 27px;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
+.intro-2 {
+  &__figure {
+    padding: 6px 24px;
+    margin-bottom: 0;
+    background-color: $grey-lightest;
+  }
+  &__img {
+    width: 100%;
+    margin-bottom: 14px;
+  }
+  &__caption {
+    font-family: $verdana;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: italic;
+    color: $black-lightest;
+    margin-bottom: 32px;
+  }
+  &__desc {
+    background-color: $orange-light;
+    color: $white;
+    text-align: center;
+    padding: 0 24px;
+  }
+  &__title {
+    border-bottom: 1px solid $gray-lighter;
+    font-family: $roboto;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 38px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+  &__text {
+    font-family: $verdana;
+    font-size: 15px;
+    font-weight: 700;
+    border-top: 1px solid $grey-lighten;
+    padding: 10px 5px 38px;
+    margin-bottom: 0;
+  }
+}
+.intro-3 {
+  padding: 6px 24px 36px;
+  &__imgwrap {
+    text-align: center;
+  }
+  &__img {
+    max-width: 100%;
+  }
+  &__text {
+    font-family: $verdana;
+    font-size: 15px;
+    line-height: 26px;
+    border-bottom: 1px solid $gray-lighter;
+    padding: 9px 0 26px;
+    margin-bottom: 0;
+  }
+  &__btnwrap {
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+  }
+}

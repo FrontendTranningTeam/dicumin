@@ -1,8 +1,11 @@
 .footer {
+  background-color: $black-lighten;
+  &__inner {
+    padding: 0 24px;
+  }
   &__widgets {
     margin: 0;
     padding: 54px 0 20px;
-    background-color: $black-lighten;
   }
   &__navbar {
     display: flex;

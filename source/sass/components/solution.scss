@@ -1,0 +1,35 @@
+.solution {
+  padding: 6px 24px 36px;
+  background-color: $grey-lighten;
+  &__wrap {
+    background-color: $white-smoke;
+  }
+  &__imgwrap {
+    text-align: center;
+    margin-bottom: 43px;
+  }
+  &__img {
+    max-width: 100%;
+  }
+  &__title {
+    font-family: $verdana;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    color: $orange-darken;
+    margin-bottom: 18px;
+  }
+  &__text {
+    font-family: $verdana;
+    font-size: 15px;
+    color: $black-lighter;
+    padding: 10px 0 26px;
+    margin-bottom: 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+  &__btnwrap {
+    display: block;
+    margin-top: 8px;
+    text-align: center;
+  }
+}

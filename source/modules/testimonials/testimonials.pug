@@ -1,0 +1,10 @@
+mixin testimonials(testimonials)
+  section.testimonials
+    h1.testimonials__title Những cảm nhận của khách hàng về Tinh Bột nghệ Dicumin để thay cho lời cam kết.
+    .row
+      each item in testimonials
+        .col-md-4
+          .testimonial
+            img.testimonial__img(src=item.image, alt="")
+            h3.testimonial__name= item.name
+            p.testimonial__text= item.text
