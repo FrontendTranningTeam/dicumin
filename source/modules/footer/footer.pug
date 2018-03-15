@@ -1,15 +1,15 @@
-mixin footer(data)
+mixin footer(footer)
   footer.footer
     .footer__widgets.row
       section.col-lg-4
         h5.footer__title Tinh bột nghệ Dicumin
         ul.about
-          each item in data.about
+          each item in footer.about
             li.about__item= item
       section.col-lg-4
         h5.footer__title Bài viết mới
         ul.new-post
-          each item in data.link
+          each item in footer.link
             li.new-post__item
               a.new-post__link(href="#!")= item
       section.col-lg-4
